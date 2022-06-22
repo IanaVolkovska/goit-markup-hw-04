@@ -159,6 +159,13 @@ display: flex;
 .link-contact:last-child {
     margin-right: 0px;
 }
+.studio-icon {
+    fill: var(--primary-text-color);
+}
+.studio-icon:hover,
+.studio-icon:focus {
+    fill: var(--button-color);
+}
 
 .link:hover,
 .link:focus,
@@ -168,9 +175,19 @@ display: flex;
 }
 /*Hero*/
 .hero {
-    background-color: var(--background-footer);
     text-align: center;  
     padding: 200px 0;
+    background-color: var(--background-footer);
+    max-width: 1600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient (to right,
+            rgba(47, 48,58,0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 
@@ -211,6 +228,16 @@ display: flex;
 }
 .advantages-list  {
 display: flex;
+}
+.feature-iconfill {
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    background-color: var(--secondary-background-color);
+    border-radius: 4px;
+}
+.feature-icons {
+    align-items: center;
 }
 .feature-item {
     padding: 0px;
