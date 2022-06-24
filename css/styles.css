@@ -159,20 +159,22 @@ display: flex;
 .link-contact:last-child {
     margin-right: 0px;
 }
-.studio-icon {
-    fill: currentColor;
-}
-.studio-icon:hover,
-.studio-icon:focus {
-    fill: currentColor;
-}
-
 .link:hover,
 .link:focus,
 .contact:hover,
 .contact:focus {
     color: var(--link-text-color);
 }
+.studio-icon {
+    fill: currentColor;
+    margin-right: 10px;
+}
+.studio-icon:hover,
+.studio-icon:focus {
+    fill: currentColor;
+}
+
+
 /*Hero*/
 .hero {
     text-align: center;  
@@ -237,7 +239,9 @@ display: flex;
     border-radius: 4px;
 }
 .feature-icons {
+    display: flex;
     align-items: center;
+    justify-content: center;
 }
 .feature-item {
     padding: 0px;
@@ -329,6 +333,38 @@ display: flex;
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-bottom: 16px;
+}
+.social-icons {
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+.team-icons {
+    margin-right: 10px;
+    text-decoration: none;
+}
+.team-icons:last-child {
+margin-right: 0px;
+}
+.social-icons {
+    fill: currentColor;
+}
+.social-link:hover,
+.social-link:focus {
+    border-radius: 44px;
+    fill: var(--accent-text-color);
+    background-color: #2196F3;
+}
+.client-section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    margin-bottom: 0px;
+}
+.client-icons {
+    margin-right: 30px;
+}
+.client-icons:last-child {
+    margin-right: 0px;
 }
 /*Footer*/
 .footer-section {
@@ -379,6 +415,20 @@ align-items: flex-start;
     line-height: 1.71;
     letter-spacing: 0.03em;
     text-decoration: none;
+}
+.footer-social {
+    margin-top: 72px;
+    margin-bottom: 100px;
+}
+.footer-title {
+    color: var(--accent-text-color);
+    margin-bottom: 20px;
+    font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        text-decoration: none;
 }
 
 /*Portfolio*/
