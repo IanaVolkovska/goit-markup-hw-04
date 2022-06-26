@@ -403,6 +403,7 @@ margin-right: 0px;
 }
 .footer-ancors {
     display: flex;
+    align-items: baseline;
 }
 .footer-contact {
     margin-right: 70px;
@@ -450,10 +451,6 @@ align-items: flex-start;
     line-height: 1.71;
     letter-spacing: 0.03em;
     text-decoration: none;
-}
-.footer-social {
-    margin-top: 72px;
-    margin-bottom: 100px;
 }
 .footer-title {
     color: var(--accent-text-color);
