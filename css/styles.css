@@ -166,6 +166,18 @@ display: flex;
 .contact:focus {
     color: var(--link-text-color);
 }
+.header-link {
+    color: var(--primary-text-color);
+        font-family: inherit;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        display: flex;
+}
 .studio-icon {
     fill: currentColor;
     margin-right: 10px;
@@ -300,6 +312,8 @@ display: flex;
 }
 .team-list {
     background-color: var(--primary-background-color);
+    box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
+        border-radius: 0px 0px 4px 4px;
 }
 .team-list:not(:last-child) {
     margin-right: 30px;
@@ -371,7 +385,7 @@ margin-right: 0px;
 .social-link:focus {
     border-radius: 50%;
     background-color: #2196F3;
-    fill: var(--accent-text-color);
+    color: var(--accent-text-color);
     
 }
 /*Clients-section*/
